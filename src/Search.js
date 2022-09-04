@@ -39,7 +39,7 @@ function Search() {
             
             
 
-        <div className='w-full max-w-[900px] ml-[100px] lg:ml-[20px] mx-auto'>
+        <div className='w-full max-w-[900px] ml-[50px] lg:ml-[20px] mx-auto'>
             <div className='border text-center'>
                 <p>GET AN ADDITIONAL 10% OFF</p>
                 <p className='py-4'>12 HOURS LEFT </p>
@@ -58,11 +58,11 @@ function Search() {
                 </div>
                 <div className='flex flex-col my-2'>
                     <label className='my-4'>Check-in</label>
-                    <input className='border rounded-md p-2' type='date'/>
+                    <input className='border rounded-md p-2 w-full' type='date'/>
                 </div>
                 <div className='flex flex-col my-2'>
                     <label>Check-out</label>
-                    <input className='border rounded-md p-2' type='date'/>
+                    <input className='border rounded-md p-2 w-full' type='date'/>
                 </div>
                 <div>
                     <button className='w-full my-2'>Rates and Availabilities</button>
